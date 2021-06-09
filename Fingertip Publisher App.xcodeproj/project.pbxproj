@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8623F28C26717AEF0090F68B /* FormularyScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8623F28B26717AEF0090F68B /* FormularyScreen.swift */; };
 		86FADCA7267178F2008BB967 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FADCA6267178F2008BB967 /* AppDelegate.swift */; };
 		86FADCA9267178F2008BB967 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FADCA8267178F2008BB967 /* SceneDelegate.swift */; };
 		86FADCAB267178F2008BB967 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FADCAA267178F2008BB967 /* ViewController.swift */; };
@@ -16,6 +17,10 @@
 		86FADCB6267178F4008BB967 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86FADCB4267178F4008BB967 /* LaunchScreen.storyboard */; };
 		86FADCC1267178F4008BB967 /* Fingertip_Publisher_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FADCC0267178F4008BB967 /* Fingertip_Publisher_AppTests.swift */; };
 		86FADCCC267178F4008BB967 /* Fingertip_Publisher_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FADCCB267178F4008BB967 /* Fingertip_Publisher_AppUITests.swift */; };
+		86FADCDE2671793A008BB967 /* WebViewLoginModule in Frameworks */ = {isa = PBXBuildFile; productRef = 86FADCDD2671793A008BB967 /* WebViewLoginModule */; };
+		A332FCA946CAC3BD07FD21A8 /* Pods_Fingertip_Publisher_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D6EAFF77FDE06AB75FF8D6 /* Pods_Fingertip_Publisher_App.framework */; };
+		D8084528B7448512C7294922 /* Pods_Fingertip_Publisher_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F4AE1FF611F8759EE45403 /* Pods_Fingertip_Publisher_AppTests.framework */; };
+		F79CE55EBFA3FD87A8F66DAA /* Pods_Fingertip_Publisher_App_Fingertip_Publisher_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAF99AE826D245C9D4090A6 /* Pods_Fingertip_Publisher_App_Fingertip_Publisher_AppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12615606539E05CDD1990BE7 /* Pods-Fingertip Publisher App-Fingertip Publisher AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fingertip Publisher App-Fingertip Publisher AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Fingertip Publisher App-Fingertip Publisher AppUITests/Pods-Fingertip Publisher App-Fingertip Publisher AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		12D6EAFF77FDE06AB75FF8D6 /* Pods_Fingertip_Publisher_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fingertip_Publisher_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAF99AE826D245C9D4090A6 /* Pods_Fingertip_Publisher_App_Fingertip_Publisher_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fingertip_Publisher_App_Fingertip_Publisher_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3D42AA6F6436F2FBBCB18D /* Pods-Fingertip Publisher App-Fingertip Publisher AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fingertip Publisher App-Fingertip Publisher AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Fingertip Publisher App-Fingertip Publisher AppUITests/Pods-Fingertip Publisher App-Fingertip Publisher AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B2750A3B8059FA16AD06F1D /* Pods-Fingertip Publisher AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fingertip Publisher AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Fingertip Publisher AppTests/Pods-Fingertip Publisher AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		720E6A0343CA4506C8C61BEC /* Pods-Fingertip Publisher App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fingertip Publisher App.release.xcconfig"; path = "Target Support Files/Pods-Fingertip Publisher App/Pods-Fingertip Publisher App.release.xcconfig"; sourceTree = "<group>"; };
+		8623F28B26717AEF0090F68B /* FormularyScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormularyScreen.swift; sourceTree = "<group>"; };
 		86FADCA3267178F2008BB967 /* Fingertip Publisher App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fingertip Publisher App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86FADCA6267178F2008BB967 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86FADCA8267178F2008BB967 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +63,9 @@
 		86FADCC7267178F4008BB967 /* Fingertip Publisher AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fingertip Publisher AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86FADCCB267178F4008BB967 /* Fingertip_Publisher_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fingertip_Publisher_AppUITests.swift; sourceTree = "<group>"; };
 		86FADCCD267178F4008BB967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91F4AE1FF611F8759EE45403 /* Pods_Fingertip_Publisher_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fingertip_Publisher_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD12E806C12BB8ED32E87172 /* Pods-Fingertip Publisher AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fingertip Publisher AppTests.release.xcconfig"; path = "Target Support Files/Pods-Fingertip Publisher AppTests/Pods-Fingertip Publisher AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		D67CC0B08AC12802054E4582 /* Pods-Fingertip Publisher App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fingertip Publisher App.debug.xcconfig"; path = "Target Support Files/Pods-Fingertip Publisher App/Pods-Fingertip Publisher App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86FADCDE2671793A008BB967 /* WebViewLoginModule in Frameworks */,
+				A332FCA946CAC3BD07FD21A8 /* Pods_Fingertip_Publisher_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8084528B7448512C7294922 /* Pods_Fingertip_Publisher_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F79CE55EBFA3FD87A8F66DAA /* Pods_Fingertip_Publisher_App_Fingertip_Publisher_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +104,8 @@
 				86FADCBF267178F4008BB967 /* Fingertip Publisher AppTests */,
 				86FADCCA267178F4008BB967 /* Fingertip Publisher AppUITests */,
 				86FADCA4267178F2008BB967 /* Products */,
+				C5C99F9D9C45FB3B6A1A5CAD /* Pods */,
+				DD499A808AD33716A03F62F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +125,7 @@
 				86FADCA6267178F2008BB967 /* AppDelegate.swift */,
 				86FADCA8267178F2008BB967 /* SceneDelegate.swift */,
 				86FADCAA267178F2008BB967 /* ViewController.swift */,
+				8623F28B26717AEF0090F68B /* FormularyScreen.swift */,
 				86FADCAC267178F2008BB967 /* Main.storyboard */,
 				86FADCB2267178F4008BB967 /* Assets.xcassets */,
 				86FADCB4267178F4008BB967 /* LaunchScreen.storyboard */,
@@ -131,6 +153,29 @@
 			path = "Fingertip Publisher AppUITests";
 			sourceTree = "<group>";
 		};
+		C5C99F9D9C45FB3B6A1A5CAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D67CC0B08AC12802054E4582 /* Pods-Fingertip Publisher App.debug.xcconfig */,
+				720E6A0343CA4506C8C61BEC /* Pods-Fingertip Publisher App.release.xcconfig */,
+				3F3D42AA6F6436F2FBBCB18D /* Pods-Fingertip Publisher App-Fingertip Publisher AppUITests.debug.xcconfig */,
+				12615606539E05CDD1990BE7 /* Pods-Fingertip Publisher App-Fingertip Publisher AppUITests.release.xcconfig */,
+				4B2750A3B8059FA16AD06F1D /* Pods-Fingertip Publisher AppTests.debug.xcconfig */,
+				AD12E806C12BB8ED32E87172 /* Pods-Fingertip Publisher AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DD499A808AD33716A03F62F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12D6EAFF77FDE06AB75FF8D6 /* Pods_Fingertip_Publisher_App.framework */,
+				3CAF99AE826D245C9D4090A6 /* Pods_Fingertip_Publisher_App_Fingertip_Publisher_AppUITests.framework */,
+				91F4AE1FF611F8759EE45403 /* Pods_Fingertip_Publisher_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,15 +183,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86FADCD0267178F4008BB967 /* Build configuration list for PBXNativeTarget "Fingertip Publisher App" */;
 			buildPhases = (
+				5D9897ED8A2CB93A0C84E978 /* [CP] Check Pods Manifest.lock */,
 				86FADC9F267178F2008BB967 /* Sources */,
 				86FADCA0267178F2008BB967 /* Frameworks */,
 				86FADCA1267178F2008BB967 /* Resources */,
+				7100E4D8125CC73CB98C558B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Fingertip Publisher App";
+			packageProductDependencies = (
+				86FADCDD2671793A008BB967 /* WebViewLoginModule */,
+			);
 			productName = "Fingertip Publisher App";
 			productReference = 86FADCA3267178F2008BB967 /* Fingertip Publisher App.app */;
 			productType = "com.apple.product-type.application";
@@ -155,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86FADCD3267178F4008BB967 /* Build configuration list for PBXNativeTarget "Fingertip Publisher AppTests" */;
 			buildPhases = (
+				B556181D0F6F8548A514DF94 /* [CP] Check Pods Manifest.lock */,
 				86FADCB8267178F4008BB967 /* Sources */,
 				86FADCB9267178F4008BB967 /* Frameworks */,
 				86FADCBA267178F4008BB967 /* Resources */,
@@ -173,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86FADCD6267178F4008BB967 /* Build configuration list for PBXNativeTarget "Fingertip Publisher AppUITests" */;
 			buildPhases = (
+				375409E6A7B3613B0C9DCCE5 /* [CP] Check Pods Manifest.lock */,
 				86FADCC3267178F4008BB967 /* Sources */,
 				86FADCC4267178F4008BB967 /* Frameworks */,
 				86FADCC5267178F4008BB967 /* Resources */,
+				162BE9DB2BD70DD239FE51A4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -218,6 +271,9 @@
 				Base,
 			);
 			mainGroup = 86FADC9A267178F2008BB967;
+			packageReferences = (
+				86FADCDC2671793A008BB967 /* XCRemoteSwiftPackageReference "WebViewLoginModule" */,
+			);
 			productRefGroup = 86FADCA4267178F2008BB967 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -256,12 +312,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		162BE9DB2BD70DD239FE51A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fingertip Publisher App-Fingertip Publisher AppUITests/Pods-Fingertip Publisher App-Fingertip Publisher AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fingertip Publisher App-Fingertip Publisher AppUITests/Pods-Fingertip Publisher App-Fingertip Publisher AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fingertip Publisher App-Fingertip Publisher AppUITests/Pods-Fingertip Publisher App-Fingertip Publisher AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		375409E6A7B3613B0C9DCCE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fingertip Publisher App-Fingertip Publisher AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D9897ED8A2CB93A0C84E978 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fingertip Publisher App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7100E4D8125CC73CB98C558B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fingertip Publisher App/Pods-Fingertip Publisher App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fingertip Publisher App/Pods-Fingertip Publisher App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fingertip Publisher App/Pods-Fingertip Publisher App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B556181D0F6F8548A514DF94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fingertip Publisher AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		86FADC9F267178F2008BB967 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				86FADCAB267178F2008BB967 /* ViewController.swift in Sources */,
+				8623F28C26717AEF0090F68B /* FormularyScreen.swift in Sources */,
 				86FADCB1267178F2008BB967 /* Fingertip_Publisher_App.xcdatamodeld in Sources */,
 				86FADCA7267178F2008BB967 /* AppDelegate.swift in Sources */,
 				86FADCA9267178F2008BB967 /* SceneDelegate.swift in Sources */,
@@ -437,6 +597,7 @@
 		};
 		86FADCD1267178F4008BB967 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D67CC0B08AC12802054E4582 /* Pods-Fingertip Publisher App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,6 +616,7 @@
 		};
 		86FADCD2267178F4008BB967 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 720E6A0343CA4506C8C61BEC /* Pods-Fingertip Publisher App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +635,7 @@
 		};
 		86FADCD4267178F4008BB967 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B2750A3B8059FA16AD06F1D /* Pods-Fingertip Publisher AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +657,7 @@
 		};
 		86FADCD5267178F4008BB967 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD12E806C12BB8ED32E87172 /* Pods-Fingertip Publisher AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +679,7 @@
 		};
 		86FADCD7267178F4008BB967 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F3D42AA6F6436F2FBBCB18D /* Pods-Fingertip Publisher App-Fingertip Publisher AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +699,7 @@
 		};
 		86FADCD8267178F4008BB967 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12615606539E05CDD1990BE7 /* Pods-Fingertip Publisher App-Fingertip Publisher AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -591,6 +757,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		86FADCDC2671793A008BB967 /* XCRemoteSwiftPackageReference "WebViewLoginModule" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/me-praveen/WebViewLoginModule.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		86FADCDD2671793A008BB967 /* WebViewLoginModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86FADCDC2671793A008BB967 /* XCRemoteSwiftPackageReference "WebViewLoginModule" */;
+			productName = WebViewLoginModule;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		86FADCAF267178F2008BB967 /* Fingertip_Publisher_App.xcdatamodeld */ = {
